@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 
 import static io.qameta.allure.Allure.step;
 
-public class StudentRegistrationFormTest {
+public class StudentRegistrationFormTest extends BaseTest {
 
     RegistrationFormPage registrationFormPage = new RegistrationFormPage();
 
